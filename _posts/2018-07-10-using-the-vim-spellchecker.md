@@ -1,10 +1,11 @@
 ---
 layout: post
 title: Using Vim's Built-In Spell Checker
-summary: When writing prose, Vim's built-in spell checker can help you out if you know how to use it
-author: Tom Schaefer
-author_url: http://teecom.com/people/tommy-schaefer/
-tags: vim
+summary:
+  When writing prose, Vim's built-in spell checker can help you out if you know
+  how to use it
+reposted_from: http://labs.teecom.com/blog/using-the-vim-spellchecker
+reposted_from_title: TEECOMlabs blog
 ---
 
 I often find myself writing prose using Vim. Whether it's for project
@@ -46,7 +47,7 @@ autocmd Filetype gitcommit setlocal spell
 
 Now that spell checking is enabled, it's time to learn how to use it.
 
-#### Navigating the sea of misspelled words
+### Navigating the sea of misspelled words
 
 When I'm working on a document, I usually like to get all of my thoughts out
 before going back and editing or fixing spelling errors. When I get to this
@@ -54,7 +55,7 @@ step, I usually have **a lot** of places that need fixing. Because of this, I
 find it really helpful to jump between misspelled words with `]s` (next word)
 and `[s` (previous word).
 
-#### Adding unrecognized words to the dictionary
+### Adding unrecognized words to the dictionary
 
 Often times when I'm working on a blog post or bit of markdown documentation, my
 text will include words that the spell checker doesn't recognize. For example,
@@ -66,7 +67,7 @@ times:
 To fix this, you can use `zg` to add the word under the cursor to Vim's
 "spellfile".
 
-#### Correcting spelling mistakes
+### Correcting spelling mistakes
 
 To replace a misspelled word, you have a few options. If you're in normal mode,
 you can use `z=` while your cursor is over a misspelled word to see a list of

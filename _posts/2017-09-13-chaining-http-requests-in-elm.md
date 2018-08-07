@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Chaining HTTP Requests In Elm
-summary: Learn how to chain HTTP requests that depend on each other using Elm tasks
-author: Tom Schaefer
-author_url: http://teecom.com/people/tommy-schaefer/
-tags: elm web http
+summary:
+  Learn how to chain HTTP requests that depend on each other using Elm tasks
+reposted_from: http://labs.teecom.com/blog/chaining-http-requests-in-elm
+reposted_from_title: TEECOMlabs blog
 ---
 
 In some situations, one HTTP request may be dependent on information from

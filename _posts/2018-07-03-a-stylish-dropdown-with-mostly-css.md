@@ -2,9 +2,8 @@
 layout: post
 title: A Stylish Dropdown With Mostly CSS
 summary: Learn how to make simple, but stylish dropdown menus with mostly CSS
-author: Tom Schaefer
-author_url: http://teecom.com/people/tommy-schaefer/
-tags: web css
+reposted_from: http://labs.teecom.com/blog/a-stylish-dropdown-with-mostly-css
+reposted_from_title: TEECOMlabs blog
 ---
 
 In my experience, dropdown tutorials usually fall into one of two categories:

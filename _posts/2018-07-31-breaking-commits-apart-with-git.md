@@ -5,9 +5,8 @@ summary:
   I like the code in my commits to be related, but sometimes an unrelated change
   will slip past my guard. In cases like this, it can be extremely helpful to
   know how to split a given commit apart.
-author: Tom Schaefer
-author_url: http://teecom.com/people/tommy-schaefer/
-tags: git
+reposted_from: https://labs.teecom.com/blog/breaking-commits-apart-with-git
+reposted_from_title: TEECOMlabs blog
 ---
 
 When working on a new feature, I try to group my code under logical commit
