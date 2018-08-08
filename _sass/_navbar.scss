@@ -1,0 +1,37 @@
+.navbar {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+
+  @media screen and (max-width: $small-screen) {
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+}
+
+.navbar__actions {
+  a {
+    margin-left: 1rem;
+  }
+
+  @media screen and (max-width: $small-screen) {
+    margin-top: 2rem;
+  }
+}
+
+.logo {
+  background: $accent-color;
+  border: none;
+  border-radius: 3px;
+  color: $white;
+  font-weight: $bold-font;
+  letter-spacing: 0.05em;
+  padding: .5rem 1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  &:hover {
+    color: $white;
+  }
+}
