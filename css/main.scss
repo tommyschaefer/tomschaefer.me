@@ -1,2 +1,110 @@
 ---
 ---
+
+@import "variables";
+
+@import "navbar";
+@import "post";
+@import "syntax_highlighting";
+
+body {
+  -webkit-text-size-adjust: 100%;
+  color: $font-color;
+  font-family: $font-family;
+  font-size: $base-font-size;
+  font-weight: $regular-font;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: $medium-screen;
+
+  @media screen and (max-width: $large-screen) {
+    padding: 1rem;
+  }
+}
+
+.large-container {
+  margin: 2rem -10%;
+  width: 120%;
+
+  @media screen and (max-width: $large-screen) {
+    margin: 2rem 0;
+    width: 100%;
+  }
+}
+
+h1 {
+  margin-top: .5rem;
+}
+
+p {
+  line-height: 1.8em;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+
+a {
+  border-bottom: 1px solid $font-color;;
+  color: $font-color;
+  font-weight: $semibold-font;
+  text-decoration: none;
+  transition: all .3s ease;
+
+  &:hover {
+    border-color: $accent-color;
+    color: $accent-color;
+  }
+}
+
+img {
+  @extend .large-container;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid $grey;
+  display: block;
+  height: 1px;
+  margin: 4rem 0;
+}
+
+code {
+  background: $light-background-color;
+  border-radius: 3px;
+  font-family: $mono-font-family;
+  font-size: $small-font-size;
+  padding: 0 3px;
+  white-space: normal;
+}
+
+pre {
+  @extend .large-container;
+
+  -webkit-overflow-scrolling: touch;
+  line-height: 1.6em;
+  overflow-x: auto;
+  white-space: pre;
+  word-wrap: normal;
+
+  code {
+    color: $light-font-color;
+    display: block;
+    padding: 2rem calc(8% + 2rem);
+    outline: none;
+    overflow-x: auto;
+    white-space: inherit;
+
+    @media screen and (max-width: $large-screen) {
+      padding: 2rem 2rem;
+    }
+  }
+}
+
+:not(pre) > code {
+  margin-right: 0.05em;
+  margin-left: 0.05em;
+  padding: 5px;
+  white-space: nowrap;
+}

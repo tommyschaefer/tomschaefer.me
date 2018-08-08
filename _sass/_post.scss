@@ -1,0 +1,15 @@
+.date {
+  color: $light-font-color;
+  font-weight: $semibold-font;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.posts {
+  padding-left: 0;
+}
+
+.post {
+  list-style: none;
+  margin: 6rem 0;
+}

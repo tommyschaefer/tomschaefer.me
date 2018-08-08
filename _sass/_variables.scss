@@ -1,0 +1,52 @@
+// Raw Colors
+
+$white: #fff;
+
+$black: #282c37;
+$dark-grey: lighten($black, 20%);
+$grey: lighten($dark-grey, 50%);
+$lightest-grey: lighten($grey, 8%);
+
+$darker-purple: #5d62c6;
+
+// Syntax Highlighting Colors
+
+$highlight-blue: #106fb2;
+$highlight-bright-green: #00ad38;
+$highlight-darker-grey: #3d3e44;
+$highlight-darkest-grey: #29292c;
+$highlight-green: #048a64;
+$highlight-grey: #808080;
+$highlight-light-green: #baeeba;
+$highlight-light-red: #ffc8bd;
+$highlight-lighter-grey: #9b9aa1;
+$highlight-lightest-grey: #b5b5c0;
+$highlight-red: #dc322f;
+
+// Contextualized Colors
+
+$background-color: $black;
+$light-background-color: $lightest-grey;
+
+$font-color: $black;
+$light-font-color: $dark-grey;
+
+$accent-color: $darker-purple;
+
+// Typographic Variables
+
+$font-family: 'Open Sans', sans-serif;
+$mono-font-family: "Fira Mono", "Monaco", "Consolas", "Lucida Console", monospace;
+
+$base-font-size: 1.2rem;
+$small-font-size: .8rem;
+
+$regular-font: 400;
+$semibold-font: 600;
+$bold-font: 700;
+
+// Screen Sizes
+
+$small-screen: 576px;
+$medium-screen: 768px;
+$large-screen: 922px;
