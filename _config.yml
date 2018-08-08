@@ -1,2 +1,4 @@
+syntax_highlighter: rouge
+
 plugins:
   - jekyll-feed
