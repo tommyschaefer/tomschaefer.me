@@ -3,12 +3,19 @@ layout: default
 title: Tom Schaefer
 ---
 
-<ul>
+<ul class="posts">
   {% for post in site.posts %}
-    <li>
+    <li class="post">
+
+      <span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
+
       <a href="{{ post.url | prepend: site.github.url }}">
-        {{ post.title }}
+        <h1>{{ post.title }}</h1>
       </a>
+
+      <p>
+        {{ post.summary }}
+      </p>
     </li>
   {% endfor %}
 </ul>
